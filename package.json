@@ -20,7 +20,7 @@
     "test": "fusion test",
     "build": "fusion build",
     "build-production": "fusion build --production",
-    "start": "fusion start"
+    "start": "fusion build && fusion start"
   },
   "devDependencies": {
     "enzyme": "^3.6.0"
