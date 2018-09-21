@@ -2864,7 +2864,7 @@ fusion-core@^1.6.0:
 
 fusion-plugin-react-helmet-async@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/fusion-plugin-react-helmet-async/-/fusion-plugin-react-helmet-async-1.0.0.tgz#7bc56760d111371753d0c2a09b5885d193fc3374"
+  resolved "https://registry.yarnpkg.com/fusion-plugin-react-helmet-async/-/fusion-plugin-react-helmet-async-1.0.0.tgz#7bc56760d111371753d0c2a09b5885d193fc3374"
   dependencies:
     react-helmet-async "^0.1.0"
 
