@@ -120,7 +120,6 @@ class Home extends React.Component {
 
       // Draw aliencycle
       const index = Math.abs(tx) % points.length;
-      console.log('Draw at?', points[index]);
       context.drawImage(alienCycleRef, -50, points[index] - 400);
 
       // if the temp x + the width is zero
@@ -151,6 +150,14 @@ class Home extends React.Component {
       midpoint(mid, p2, max / 2, jitter);
     }
   }
+
+  handlePromotions = e => {
+    if (e.target.textContent === 'Promotions') {
+      e.preventDefault();
+      e.target.innerHTML = 'E-mail: promotions@alienrides.com';
+      e.target.href = 'mailto:promotions@alienrides.com';
+    }
+  };
 
   render() {
     return (
@@ -198,6 +205,9 @@ class Home extends React.Component {
             Apparel
           </ResourceLink>
           <ResourceLink href="https://ewheels.com/alien">Shop</ResourceLink>
+          <ResourceLink href="#" onClick={this.handlePromotions}>
+            Promotions
+          </ResourceLink>
         </div>
         <div
           id="world"
