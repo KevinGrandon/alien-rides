@@ -27,7 +27,7 @@
   "scripts": {
     "dev": "fusion dev",
     "test": "fusion test",
-    "build": "fusion build",
+    "build": "fusion build --production",
     "build-production": "fusion build --production",
     "start": "fusion build && fusion start"
   },
