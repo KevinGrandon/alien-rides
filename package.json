@@ -29,7 +29,7 @@
     "test": "fusion test",
     "build": "fusion build --production",
     "build-production": "fusion build --production",
-    "start": "fusion build --production && fusion start --port $PORT"
+    "start": "fusion build --production && fusion start"
   },
   "devDependencies": {
     "enzyme": "^3.6.0"
