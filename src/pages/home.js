@@ -201,9 +201,6 @@ class Home extends React.Component {
           <ResourceLink href="https://www.patreon.com/AlienRides">
             Patreon
           </ResourceLink>
-          <ResourceLink href="https://alienrides.storenvy.com/">
-            Apparel
-          </ResourceLink>
           <ResourceLink href="https://ewheels.com/alien">Shop</ResourceLink>
           <ResourceLink href="#" onClick={this.handlePromotions}>
             Promotions
